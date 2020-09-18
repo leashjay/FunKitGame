@@ -1,0 +1,26 @@
+Embedded Systems Assignment 2019
+Alyssa Josephs - 99968806
+Christopher Dewhurst - 25428716
+
+An adaptation of 'Bop it - Pass" a two player game.
+
+A game is intitiated when a player pushes the black navigation button.
+They become the active player and the other player becomes the non-active player.
+
+After a short pause the active player is shown a direction:
+    U: Up
+    D: Down
+    L: Left
+    R: Right
+    P: Push
+
+The active player must move the navigation button in the matching direction
+before the character disappears. The player will be flashed five directions,
+they must respond in time to all five correctly before the game play is
+passed to player 2., the non-active player.
+
+Play continues until an incorrect action is made. The active player will
+be shown a losing screen and the non-active player to be shown winning screen.
+
+Game can be restarted through the white button on the opposite side of
+the LED matrix to the navigation button.
